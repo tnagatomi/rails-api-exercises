@@ -29,6 +29,6 @@ module RailsApiExercises
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
 
-    config.generators.test_frameworks = false
+    config.generators.test_frameworks = nil
   end
 end
